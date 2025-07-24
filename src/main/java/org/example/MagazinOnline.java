@@ -2,8 +2,8 @@ package org.example;
 
 public class MagazinOnline {
     public static void main(String[] args) {
-        Produs sapun = new Produs("sapun", 10.99, 25);
-        Produs detergentVase = new Produs ("DetergentVase", 15.99, 50);
+        Produs sapun = new Produs("Sanytol", 10.99, 25);
+        Produs detergentVase = new Produs ("Spark", 15.99, 50);
         Produs hartieIgienica = new Produs ("Zewa", 8.99, 43);
 
         System.out.println("Nume: " + sapun.getNume() + ", Pret: " + sapun.getPret() + ", Cantitate: " + sapun.getCantitate());
